@@ -64,7 +64,8 @@ public class ImageController {
   }
 
   @GetMapping("/image/imageDetails")
-  String showProductDetails(@RequestParam("id") Long id, Optional<Image> image, Model model) {
+  String showProductDetails(
+      @RequestParam("id") Long id, Optional<Image> image, Model model) {
     try {
       if (id != 0) {
         image = imageService.getImageById(id);
