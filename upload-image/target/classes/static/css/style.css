@@ -23,6 +23,10 @@ a {
     -ms-transition: 0.5s all;
 }
 
+.mb-10 {
+    margin-bottom: 10px;
+}
+
 a:hover {
     text-decoration: none;
     opacity: .8;
@@ -3160,4 +3164,3 @@ div#testimonials h4.m-title {
     }
 }
 
-/*--//responsive--*/
